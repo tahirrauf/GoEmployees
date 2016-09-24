@@ -1,0 +1,23 @@
+ <!-- Copyright 2016 Tahir Rauf. All rights reserved.
+ This code is under Open Source license and anyone can use it 
+ Author: Tahir Rauf <tahir.abdul.rauf@gmail.com> -->
+ 
+<html>
+    <head>
+        <title>Add an employee</title>
+    </head>
+    <body>
+        <p><b>Add an employee</b></p>  
+
+        <form action="/save_employee" method="post">
+            <p><div> Employee #:<input type="text" name="empnumb"></div></p>
+            <p><div> First Name: <input type="text" name="fname"></div></p>
+            <p><div> Last Name: <input type="text" name="lname"></div></p>
+
+            <div><input type="submit" value="Add Employee"></div>
+       </form>
+ 
+       <p>[<a href="/">View all employees</a>]</p>
+
+    </body>
+</html>
